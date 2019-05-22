@@ -1,5 +1,4 @@
 package com.sda.tema;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,7 +31,7 @@ public class MainTema {
 
     private static String cleanUpText(String text) {
 
-        // remove punctuation: one of !"#$%&'()*+,-./:;<=>?@[]^_`{|}~
+        // remove punctuation, one of: !"#$%&'()*+,-./:;<=>?@[]^_`{|}~
         text = text.replaceAll("\\p{Punct}", "");
         return text;
     }
